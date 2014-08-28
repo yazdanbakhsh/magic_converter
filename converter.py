@@ -62,8 +62,8 @@ pass;
 
 def usage():
   print bcolors.FAIL + "\nUsage: " + bcolors.ENDC
-  print bcolors.FAIL + "       1) converter -f <input file> -o <output file>" + bcolors.ENDC
-  print bcolors.FAIL + "       2) converter [b2d|d2b] [number of bits] [number of fractions] [binary value | decimal value]" + bcolors.ENDC
+  print bcolors.FAIL + "       1) converter [b2d|d2b] [number of bits] [number of fractions] [binary value | decimal value]" + bcolors.ENDC
+  print bcolors.FAIL + "       2) converter -f [input file] -o [output file]" + bcolors.ENDC
   print bcolors.FAIL + "       3) converter --help\n" + bcolors.ENDC  
   exit(1)
 pass;
